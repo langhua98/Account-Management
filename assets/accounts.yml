@@ -1,0 +1,74 @@
+---
+# 账号页（访问方式：首页导航栏「账号」，或网址后加 #accounts）
+# 只记录「在哪个平台、用哪个账号、从哪里登录」，不要写密码！
+# 密码统一放在 Bitwarden / KeePassXC 里，这里的卡片只负责跳转。
+#
+# 新增账号：复制一段 item，改 name / subtitle / url。
+# subtitle 建议写「账号：xxx · 登录方式：GitHub 授权 / 邮箱」。
+
+subtitle: "所有平台账号入口"
+message: ~
+
+links:
+  - name: "仓库"
+    icon: "fa-solid fa-code-branch"
+    url: "#"
+  - name: "账号"
+    icon: "fa-solid fa-user-lock"
+    url: "#accounts"
+  - name: "GitHub"
+    icon: "fa-brands fa-github"
+    url: "https://github.com/langhua98?tab=repositories"
+    target: "_blank"
+
+services:
+  - name: "密码库"
+    icon: "fa-solid fa-key"
+    items:
+      - name: "Bitwarden"
+        icon: "fa-solid fa-shield-halved"
+        subtitle: "所有密码都在这里"
+        url: "https://vault.bitwarden.com"
+        target: "_blank"
+
+  - name: "开发平台"
+    icon: "fa-solid fa-laptop-code"
+    items:
+      - name: "GitHub"
+        icon: "fa-brands fa-github"
+        subtitle: "账号：langhua98"
+        url: "https://github.com/login"
+        target: "_blank"
+      - name: "GitHub 安全设置"
+        icon: "fa-solid fa-lock"
+        subtitle: "2FA / Token / SSH Key"
+        url: "https://github.com/settings/security"
+        target: "_blank"
+      # - name: "Vercel"
+      #   icon: "fa-solid fa-play"
+      #   subtitle: "账号：xxx · 登录方式：GitHub 授权"
+      #   url: "https://vercel.com/login"
+      #   target: "_blank"
+      # - name: "Cloudflare"
+      #   icon: "fa-brands fa-cloudflare"
+      #   subtitle: "账号：xxx"
+      #   url: "https://dash.cloudflare.com/login"
+      #   target: "_blank"
+
+  - name: "邮箱 / 通行证"
+    icon: "fa-solid fa-envelope"
+    items:
+      - name: "Google 账号"
+        icon: "fa-brands fa-google"
+        subtitle: "账号：（填写你的邮箱）"
+        url: "https://myaccount.google.com"
+        target: "_blank"
+
+  # - name: "社交 / 视频平台"
+  #   icon: "fa-solid fa-users"
+  #   items:
+  #     - name: "快手"
+  #       icon: "fa-solid fa-video"
+  #       subtitle: "账号：xxx"
+  #       url: "https://www.kuaishou.com"
+  #       target: "_blank"

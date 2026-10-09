@@ -1,0 +1,200 @@
+---
+# 首页：GitHub 仓库与对应网址
+# 配置文档：https://github.com/bastienwirtz/homer/blob/main/docs/configuration.md
+# 图标搜索：https://fontawesome.com/search
+#
+# 每个仓库是一组（group），组里每张卡片是一个链接。
+# 给仓库加网址：复制一段「- name / icon / subtitle / url」改一下即可。
+# ⚠️ 不要在这里写任何密码，这个文件会随网页一起公开。
+
+title: "账号管理中心"
+subtitle: "langhua98 的仓库与链接"
+logo: "logo.png"
+
+header: true
+footer: false
+
+theme: default
+defaults:
+  layout: columns
+  colorTheme: auto
+
+message:
+  style: "is-info"
+  title: "使用说明"
+  icon: "fa-solid fa-circle-info"
+  content: "按仓库分组管理所有网址。新增或修改链接请编辑仓库里的 <code>assets/config.yml</code>；账号入口在导航栏「账号」页面。密码请存放在 Bitwarden 等密码管理器中，不要写进本页面。"
+
+links:
+  - name: "仓库"
+    icon: "fa-solid fa-code-branch"
+    url: "#"
+  - name: "账号"
+    icon: "fa-solid fa-user-lock"
+    url: "#accounts"
+  - name: "GitHub"
+    icon: "fa-brands fa-github"
+    url: "https://github.com/langhua98?tab=repositories"
+    target: "_blank"
+
+services:
+  # ───────────── 小桔系列 ─────────────
+  - name: "xiaoju-cloud"
+    icon: "fa-solid fa-cloud"
+    tagstyle: "is-danger"
+    items:
+      - name: "源码"
+        icon: "fa-brands fa-github"
+        subtitle: "langhua98/xiaoju-cloud"
+        tag: "私有"
+        url: "https://github.com/langhua98/xiaoju-cloud"
+        target: "_blank"
+      - name: "Issues"
+        icon: "fa-solid fa-bug"
+        url: "https://github.com/langhua98/xiaoju-cloud/issues"
+        target: "_blank"
+      - name: "Actions"
+        icon: "fa-solid fa-gears"
+        url: "https://github.com/langhua98/xiaoju-cloud/actions"
+        target: "_blank"
+      # - name: "线上地址"
+      #   icon: "fa-solid fa-globe"
+      #   url: "https://..."
+      #   target: "_blank"
+
+  - name: "xiaoju-video"
+    icon: "fa-solid fa-film"
+    items:
+      - name: "源码"
+        icon: "fa-brands fa-github"
+        subtitle: "langhua98/xiaoju-video"
+        tag: "私有"
+        url: "https://github.com/langhua98/xiaoju-video"
+        target: "_blank"
+      - name: "Issues"
+        icon: "fa-solid fa-bug"
+        url: "https://github.com/langhua98/xiaoju-video/issues"
+        target: "_blank"
+      - name: "Actions"
+        icon: "fa-solid fa-gears"
+        url: "https://github.com/langhua98/xiaoju-video/actions"
+        target: "_blank"
+      # - name: "线上地址"
+      #   icon: "fa-solid fa-globe"
+      #   url: "https://..."
+      #   target: "_blank"
+
+  - name: "xiaoju-music"
+    icon: "fa-solid fa-music"
+    items:
+      - name: "源码"
+        icon: "fa-brands fa-github"
+        subtitle: "langhua98/xiaoju-music"
+        tag: "公开"
+        url: "https://github.com/langhua98/xiaoju-music"
+        target: "_blank"
+      - name: "Issues"
+        icon: "fa-solid fa-bug"
+        url: "https://github.com/langhua98/xiaoju-music/issues"
+        target: "_blank"
+      - name: "Actions"
+        icon: "fa-solid fa-gears"
+        url: "https://github.com/langhua98/xiaoju-music/actions"
+        target: "_blank"
+      # - name: "线上地址"
+      #   icon: "fa-solid fa-globe"
+      #   url: "https://..."
+      #   target: "_blank"
+
+  # ───────────── 其他项目 ─────────────
+  - name: "open-code"
+    icon: "fa-solid fa-terminal"
+    items:
+      - name: "源码"
+        icon: "fa-brands fa-github"
+        subtitle: "langhua98/open-code"
+        tag: "公开"
+        url: "https://github.com/langhua98/open-code"
+        target: "_blank"
+      - name: "Issues"
+        icon: "fa-solid fa-bug"
+        url: "https://github.com/langhua98/open-code/issues"
+        target: "_blank"
+      - name: "Actions"
+        icon: "fa-solid fa-gears"
+        url: "https://github.com/langhua98/open-code/actions"
+        target: "_blank"
+
+  - name: "Linggo"
+    icon: "fa-solid fa-language"
+    items:
+      - name: "源码"
+        icon: "fa-brands fa-github"
+        subtitle: "langhua98/Linggo"
+        tag: "公开"
+        url: "https://github.com/langhua98/Linggo"
+        target: "_blank"
+      - name: "Issues"
+        icon: "fa-solid fa-bug"
+        url: "https://github.com/langhua98/Linggo/issues"
+        target: "_blank"
+      - name: "Actions"
+        icon: "fa-solid fa-gears"
+        url: "https://github.com/langhua98/Linggo/actions"
+        target: "_blank"
+
+  - name: "kuaishou"
+    icon: "fa-solid fa-video"
+    items:
+      - name: "源码"
+        icon: "fa-brands fa-github"
+        subtitle: "langhua98/kuaishou"
+        tag: "公开"
+        url: "https://github.com/langhua98/kuaishou"
+        target: "_blank"
+      - name: "Issues"
+        icon: "fa-solid fa-bug"
+        url: "https://github.com/langhua98/kuaishou/issues"
+        target: "_blank"
+      - name: "Actions"
+        icon: "fa-solid fa-gears"
+        url: "https://github.com/langhua98/kuaishou/actions"
+        target: "_blank"
+
+  - name: "superadmin-ai"
+    icon: "fa-solid fa-robot"
+    items:
+      - name: "源码"
+        icon: "fa-brands fa-github"
+        subtitle: "langhua98/superadmin-ai"
+        tag: "公开"
+        url: "https://github.com/langhua98/superadmin-ai"
+        target: "_blank"
+      - name: "Issues"
+        icon: "fa-solid fa-bug"
+        url: "https://github.com/langhua98/superadmin-ai/issues"
+        target: "_blank"
+      - name: "Actions"
+        icon: "fa-solid fa-gears"
+        url: "https://github.com/langhua98/superadmin-ai/actions"
+        target: "_blank"
+
+  - name: "Account-Management"
+    icon: "fa-solid fa-user-shield"
+    items:
+      - name: "源码"
+        icon: "fa-brands fa-github"
+        subtitle: "langhua98/Account-Management（本页面）"
+        tag: "私有"
+        url: "https://github.com/langhua98/Account-Management"
+        target: "_blank"
+      - name: "编辑链接配置"
+        icon: "fa-solid fa-pen-to-square"
+        subtitle: "修改 assets/config.yml"
+        url: "https://github.com/langhua98/Account-Management/edit/main/assets/config.yml"
+        target: "_blank"
+      - name: "编辑账号页"
+        icon: "fa-solid fa-pen-to-square"
+        subtitle: "修改 assets/accounts.yml"
+        url: "https://github.com/langhua98/Account-Management/edit/main/assets/accounts.yml"
+        target: "_blank"
